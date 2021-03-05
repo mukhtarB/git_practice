@@ -19,5 +19,9 @@ git add . (for all files)
 
 
 THREE
+-- on first time commits
 7. git remote add origin https://github.com/username/repo_name.git
 8 git push -u origin master (push to master / push online)
+
+-- after wards just use 
+git push
