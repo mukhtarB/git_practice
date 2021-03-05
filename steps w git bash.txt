@@ -1,0 +1,23 @@
+ONE
+1. mkdir git_practice
+2. cd git_practice/
+3. git init  ---(intiializing dir as git repo)
+4. echo "# Hello Git and Github" >> README.txt  ---(creating readme file)
+
+
+TWO
+5. Track files
+git add README.txt (single file)
+	OR
+git add . (for all files)
+
+6. git commit -m "Commit msg"
+
+6.5. CHECK:  git status (used to check status) ..also git log (used to check log)
+
+
+
+
+THREE
+7. git remote add origin https://github.com/username/repo_name.git
+8 git push -u origin master (push to master / push online)
