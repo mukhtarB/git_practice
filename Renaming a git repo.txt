@@ -9,3 +9,13 @@ You could of course edit the gitconfig file but if this is happening to you, try
 
 
 Resource: https://gist.github.com/lttlrck/9628955
+
+
+-------------
+More effectively: espsecially for when u have only one branch
+Rename on git hub --and then:
+
+git branch -m old_name new_name
+git fetch origin
+git branch -u origin/new_name new_name
+git remote set-head origin -a
