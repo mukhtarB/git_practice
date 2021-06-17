@@ -1,0 +1,11 @@
+git branch -m old_branch new_branch         # Rename branch locally    
+git push origin :old_branch                 # Delete the old branch    
+git push --set-upstream origin new_branch   # Push the new branch, set local branch to track the new remote
+
+** Remember to pull before! Or you may lose every commit not yet on your local branch
+
+** For some reason my version of git (v2.3.2 on osx) keeps reusing the same remote branch name whether using --set-upstream or -u.
+You could of course edit the gitconfig file but if this is happening to you, try using git branch --unset-upstream before doing the final push.
+
+
+Resource: https://gist.github.com/lttlrck/9628955
